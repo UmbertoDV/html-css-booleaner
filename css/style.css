@@ -22,9 +22,34 @@ header{
 #user{
     color: #2ea5d6;
 }
-.article-header, .main-photos{
+.article-header, .main-photos, .main-center, .table{
     margin: 10px;
 }
 .main-photos > img{
     height: 600px;
+}
+.main-photos{
+    margin-bottom: 30px;
+}
+.main-center, .table{
+    font-size: 20px;
+}
+.pharagraph{
+    margin-bottom: 20px;
+}
+thead{
+    background-color: #21a9e5;
+    font-weight: bolder;
+    color: white;
+}
+.light-blue{
+    background-color: #b1e5f2;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+.longer{
+    width: 40%;
 }
