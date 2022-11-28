@@ -15,7 +15,7 @@ header{
 .art-title{
     font-size: 70px;
 }
-.who-write, .when-write{
+.who-write, .when-write, .interest{
     color: #828383;
     font-size: 20px;
 }
@@ -59,4 +59,32 @@ td{
 }
 .lista{
     margin-left: 30px;
+}
+.img1, .img2{
+    width: 350px;
+    height: 260px;
+    margin-top: 10px;
+}
+.text-img1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+.img1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+footer{
+    margin: 30px 10px 10px 10px;
+}
+.interest{
+    font-weight: bold;
 }
