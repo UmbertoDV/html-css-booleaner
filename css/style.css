@@ -12,3 +12,19 @@ header{
     height: 70px;
     margin: 110px 30px 20px 10px;
 }
+.art-title{
+    font-size: 70px;
+}
+.who-write, .when-write{
+    color: #828383;
+    font-size: 20px;
+}
+#user{
+    color: #2ea5d6;
+}
+.article-header, .main-photos{
+    margin: 10px;
+}
+.main-photos > img{
+    height: 600px;
+}
