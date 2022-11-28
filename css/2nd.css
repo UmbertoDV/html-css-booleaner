@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../img/pattern.png);
+    background-color: #4da0fe;
+    height: 180px;
+}
+.logo-header{
+    height: 70px;
+    margin: 90px 30px 20px 10px;
+}
+/* FINE HEADER */
+
+.art-title{
+    font-size: 40px;
+    width: 100%;
+    max-width: 50ch;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.who-write, .when-write, .interest{
+    color: #828383;
+    font-size: 20px;
+    width: 100%;
+    max-width: 100ch;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}
+#user{
+    color: #2ea5d6;
+}
+.main-photos, .main-center, .after-table{
+    width: 100%;
+    max-width: 100ch;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.main-photos > img{
+    height: 250px;
+    text-align: center;
+}
+.main-photos{
+    margin-bottom: 30px;
+}
+.main-center, .after-table{
+    font-size: 20px;
+}
+.pharagraph{
+    margin-bottom: 20px;
+}
+thead{
+    background-color: #21a9e5;
+    font-weight: bolder;
+    color: white;
+}
+.light-blue{
+    background-color: #b1e5f2;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: 30px 10px 30px 10px;
+    font-size: 20px;
+    width: 100%;
+    max-width: 100ch;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.longer{
+    width: 40%;
+}
+td{
+    padding-left:10px;
+}
+.lista{
+    margin-left: 30px;
+}
+.img1, .img2{
+    width: 350px;
+    height: 260px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.text-img1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+.img1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+footer{
+    width: 100%;
+    max-width: 125ch;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+.interest{
+    font-weight: bold;
+}
